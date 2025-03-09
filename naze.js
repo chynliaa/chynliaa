@@ -2,9 +2,9 @@ process.on('uncaughtException', console.error)
 process.on('unhandledRejection', console.error)
 
 /*
-	* Create By Naze
+	* Create By chyn
 	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Whatsapp : https://chat.whatsapp.com/C4XDzraoMBnIVUo324O4OK
 */
 
 require('./settings');
@@ -2880,7 +2880,7 @@ module.exports = naze = async (naze, m, chatUpdate, store, groupCache) => {
 ├ *Nama Bot* : ${botname}
 ├ *Powered* : @${'0@s.whatsapp.net'.split('@')[0]}
 ├ *Owner* : @${owner[0].split('@')[0]}
-├ *Mode* : ${naze.public ? 'Public' : 'Self'}
+├ *Mode* : ${chyn.public ? 'Public' : 'Self'}
 ├ *Prefix* :${db.set[botNumber].multiprefix ? '「 MULTI-PREFIX 」' : ' *'+prefix+'*' }
 ╰─┬────❍
 ╭─┴─❍「 *ABOUT* 」❍
